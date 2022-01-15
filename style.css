@@ -144,3 +144,20 @@ body{
     font-size: 14px;
     color: #787885;
 }
+/* ---------------------------------footer style---------------------------------- */
+.footer{
+    background-color: #1D1B1B;
+    padding: 40px;
+    text-align: center;
+}
+.footer_title{
+    color: #EC4D37;
+}
+.footer p{
+    color: white;
+}
+.social_media,.fab {
+    color: #EC4D37;
+    margin: 0 8px;
+    font-size: 20px;
+}
