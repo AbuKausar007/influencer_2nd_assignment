@@ -284,3 +284,27 @@ body{
     
     
 }
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+    .container{
+        width: auto;
+    }
+  
+
+    .collection_heading {
+        margin-top: -70px;
+    }
+
+    .collections {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
+
+    .sell_area {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
