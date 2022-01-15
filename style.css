@@ -1,0 +1,43 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+/* ------------------------common style----------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+/* -------------------------nav style------------------------- */
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+.nav_left h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.nav_right li{
+    display: inline;
+    margin-right: 34px;
+    list-style: none;   
+}
+.nav_right a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+.nav_right .fa-search{
+    font-size: 24px;
+}
+.nav_right .fa-cart-plus{
+    font-size: 36px;
+}
