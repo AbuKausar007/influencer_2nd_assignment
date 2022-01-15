@@ -242,3 +242,45 @@ body{
     margin: 0 8px;
     font-size: 20px;
 }
+/* -----------------------------------media query for devices---------------------------- */
+
+@media only screen and (min-width:0px) and (max-width:576px) {
+    .container{
+        width: 100%;
+       
+    }
+    .nav_bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_right>ul>li{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .banner_area{
+        margin-top: -100px;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+    .banner_right{
+        display: flex;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .collection_heading{
+        margin-top: -70px;
+    }
+    .collections{
+         grid-template-columns: repeat(1, 1fr);
+         flex-direction: column;
+    }
+    .sell_area{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
